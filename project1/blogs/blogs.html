@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome to website</h1>
+    <h1>Blog Page</h1>
 
     <ul>
-        {% for x in mymembers %}
-          <li>{{ x.firstname }} {{ x.lastname }}</li>
+        {% for x in Blog %}
+          <li>{{ x.title }} {{ x.detail }}</li>
         {% endfor %}
       </ul>
 </body>
